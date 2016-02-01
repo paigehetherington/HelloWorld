@@ -7,5 +7,6 @@ public class mountains {
     public String climate;
     public boolean isInUnitedStates;
     public int yearFormed;
+    //this class is for serious mountaineers
 
 }
