@@ -7,6 +7,6 @@ public class Pets {
     public boolean isFixed;
     public boolean isMale = true;
     public String color;
-    
+
 
 }
