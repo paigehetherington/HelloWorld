@@ -6,4 +6,5 @@ public class Trip {
     public int numberOfDays;
     public boolean haveVisa = true;
     public boolean haveVaccination = true;
+    //this class is for the travel junkies
 }
