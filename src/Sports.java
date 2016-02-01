@@ -6,4 +6,5 @@ public class Sports {
     public String season;
     public int pointsperscore;
     public boolean requiresEquipment = true;
+    //this class is for sports enthusiasts
 }
