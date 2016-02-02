@@ -42,3 +42,4 @@ public class Trip {
         this.haveVaccination = newHaveVaccination;
     }
 }
+//hw#2

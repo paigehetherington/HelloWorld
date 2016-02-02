@@ -49,3 +49,4 @@ public class Religion {
         this.countryOfOrigin = newCountryOfOrigin;
     }
 }
+//hw#2
