@@ -1,7 +1,7 @@
 /**
  * Created by vajrayogini on 2/1/16.
  */
-public class mountain {
+public class somethingmt {
     public String rangeName;
     public int elevation;
     public String climate;
