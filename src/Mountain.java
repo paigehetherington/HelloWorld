@@ -34,10 +34,14 @@ public class Mountain {
         return yearFormed;
     }
     public void setElevation (int newElevation) {
-        if (newElevation >= 10000) {
+        if (isValidElevation(newElevation)) {
             this.elevation = newElevation;
         }
     }
+    public boolean isValidElevation (int elevation){
+        return elevation >= 10000;
+    }
+
     public void setRangeName (String newRangeName) {
         if (newRangeName.length() <=9) {
             rangeName = newRangeName;

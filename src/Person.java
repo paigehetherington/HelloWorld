@@ -5,7 +5,7 @@ public class Person {
     public String name;
     public int age;
     public boolean isAlive = true;
-    public String address;
+    public static String address;
 
     public Person (String name, int age, boolean isAlive) {
      setName (name);
@@ -39,7 +39,7 @@ public class Person {
         isAlive = newIsAlive;
     }
 
-    public boolean isValidName(String name) {
+    public static boolean isValidName(String name) {
         return name.contains(" ");
     }
 }
