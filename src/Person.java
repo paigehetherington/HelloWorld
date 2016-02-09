@@ -42,4 +42,13 @@ public class Person {
     public static boolean isValidName(String name) {
         return name.contains(" ");
     }
+
+    @Override
+    public String toString() { //generate toString - returns all fields inside of it
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                '}';
+    }
 }
