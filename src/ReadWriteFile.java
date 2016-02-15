@@ -17,7 +17,7 @@ public class ReadWriteFile {
 
         Scanner scanner = new Scanner(f); //pass file object to scanner. if didn't have do newFile(f)
         //read line by line
-        while (scanner.hasNext()) {
+        while (scanner.hasNext()) { //hasNext: more available to read? at end...no. so goes line by line
             System.out.println(scanner.nextLine());//reads line-by-line and prints out
         }
         //read entire file
