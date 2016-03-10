@@ -43,7 +43,7 @@ public class Exercise09 {
         int newNum = Integer.valueOf(numStr);
         System.out.println(newNum);
     }
-    public static void reverseNumber(int number){
+    public static int reverseNumber(int number){
 
         int reverse = 0;
         while(number != 0){
