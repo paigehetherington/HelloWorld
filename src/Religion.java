@@ -1,6 +1,8 @@
 /**
  * Created by vajrayogini on 2/1/16.
  */
+
+//homework assignment to create 5 classes
 public class Religion {
     public int age;
     public String name;
