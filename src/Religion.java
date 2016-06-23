@@ -24,9 +24,19 @@ public class Religion {
     public String getName (){
         return name;
     }
-    public boolean isMonotheistic (){
+
+    public void setMonotheistic(boolean monotheistic) {
+        isMonotheistic = monotheistic;
+    }
+
+    public boolean getIsMonotheistic (){
         return isMonotheistic;
     }
+
+    public boolean isMonotheistic() {
+        return isMonotheistic;
+    }
+
     public String getLeaderName (){
         return leaderName;
     }
@@ -38,8 +48,13 @@ public class Religion {
             this.age = newAge;
         }
     }
+
+    public Religion() {
+    }
+
     public void setName (String newName) {
         this.name = newName;
+
     }
     public void setIsMonotheistic (boolean newIsMonotheistic) {
         this.isMonotheistic = newIsMonotheistic;
