@@ -31,5 +31,5 @@ public class Exercise02 {
 
     }
 
-
+//looping over arrayList and creating hashMao with emails listed by address
 }

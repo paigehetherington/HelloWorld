@@ -12,7 +12,7 @@ public class Exercise01 {
         String [] names = {"Alice", "Bob", "Charlie", "David", "Edward", "Albert", "Beth"}; //primitive array
         HashMap<Character, ArrayList<String>> nameMap = new HashMap<>();
 
-        //create empty arrayLists
+        //create empty arrayLists)
         for (String name : names) {
             char firstLetter = name.charAt(0);
             nameMap.put(firstLetter, new ArrayList<String>()); //pulls out first letter from name and leaves list empty
