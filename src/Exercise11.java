@@ -40,6 +40,6 @@ int num = 12345;
 
 
     }
-
+System.out.println(num2);
 
 }
