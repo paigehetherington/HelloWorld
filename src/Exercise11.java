@@ -28,7 +28,7 @@ int num = 12345;
     num2 = Integer.valueOf(sb.toString());
     System.out.println(num2);
 
-    //use math
+    //use math...
 
     num2 = 0;
     while (num != 0)
